@@ -20,3 +20,5 @@ birne:tellme()
 zitrone = Obst:create("Zirone")
 zitrone:tellme()
 
+local util = require("util")
+print(util.sum(4, 5))
